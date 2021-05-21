@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft.web.dao.ProductCategoryMapper">
+
+    <select id="selectTopCategory" resultType="com.soft.web.vo.CateGoryVO">
+        select id,category_name,urlimg pic from fa_product_category where (ISNULL(pid) or pid=0) and status=1
+    </select>
+
+    <select id="selectSecondCategory" resultType="com.soft.web.vo.CateGoryVO">
+        select id,category_name,urlimg pic from fa_product_category where pid=#{pid} and status=1
+    </select>
+
+</mapper>

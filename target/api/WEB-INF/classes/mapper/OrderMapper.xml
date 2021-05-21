@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft.web.dao.OrderMapper">
+
+    <insert id="addOrder" useGeneratedKeys="true" keyProperty="id">
+        insert into fa_order (user_id,user_account,user_nick,true_name,mobile_number,product_count,product_amount,total_weight,pay_status,order_id,is_backpay,order_status)
+        values (#{userId},#{userAccount},#{userNick},#{trueName},#{mobileNumber},#{productCount},#{productAmount},#{totalWeight},0,#{orderId},0,1)
+    </insert>
+
+    <select id="selectByUserId" resultType="Order">
+        select id from fa_order where user_id=#{userId}
+    </select>
+
+    <select id="selectConfirmByIdLimit" resultType="com.soft.web.vo.GoodsVO">
+        select product.product_id id,product.product_name,(select pic_path from fa_product_pic pic where pic.product_id=product.product_id order by sort_number limit 1) pic,
+        lable,detail.specialofferprice price,product_quantity,(detail.specialofferprice*product_quantity) sums,detail.measurement,orders.receive_name,orders.receive_telphone,orders.address
+        from fa_productinfo product
+            left JOIN fa_order_detail detail
+        on product.product_id=detail.product_id
+            left join fa_order orders
+            on detail.oid=orders.id
+        where orders.id=#{id} limit 3
+    </select>
+    
+    <select id="selectConfirmById" resultType="com.soft.web.vo.GoodsVO">
+        select product.product_id id,product.product_name,(select pic_path from fa_product_pic pic where pic.product_id=product.product_id order by sort_number limit 1) pic,
+        lable,detail.specialofferprice price,product.specialoffer,product_quantity,(detail.specialofferprice*product_quantity) sums,detail.measurement,orders.receive_name,orders.receive_telphone,orders.address
+        from fa_productinfo product
+        left JOIN fa_order_detail detail
+        on product.product_id=detail.product_id
+        left join fa_order orders
+        on detail.oid=orders.id
+        where orders.id=#{id}
+    </select>
+
+    <update id="updateAddress" parameterType="com.soft.web.vo.AddressVO">
+        update fa_order set receive_name=#{name},receive_telphone=#{mobile},address=#{address} where id=#{id}
+    </update>
+
+    <select id="selectUserIdById" resultType="User">
+        select distinct user_id from fa_user users left join fa_order orders on users.id=orders.user_id
+        where id=#{id}
+    </select>
+
+    <select id="selectComments" resultType="com.soft.web.vo.RemarkVO">
+        select id,comments remark from fa_order where id=#{id}
+    </select>
+
+    <update id="updateComments" parameterType="Order">
+        update fa_order set comments=#{comments} where id=#{id}
+    </update>
+
+    <select id="selectSumsByOid" parameterType="java.lang.Long" resultType="decimal">
+        select sum(specialofferprice*product_quantity) from fa_order_detail where oid=#{oid}
+    </select>
+
+    <select id="selectStatusById" parameterType="java.lang.Long" resultType="Order">
+        select pay_status,is_backpay,order_status from fa_order where id=#{id}
+    </select>
+
+    <update id="updateOrderByOrderId" parameterType="Order">
+        update fa_order set pay_status=1,trade_status=2,pay_way=1,pay_no=#{payNo},pay_time=#{payTime},pay_amount=#{payAmount} where order_id=#{orderId}
+    </update>
+
+    <update id="updateCartById" parameterType="Order">
+        update fa_cart set order_id=#{orderId} where id=#{id}
+    </update>
+
+    <select id="selectAddressAboutsById" resultType="com.soft.web.vo.AddressAbouts">
+        select system_comments,receive_name,receive_telphone receiveTelphone,comments,address from fa_order where id=#{id}
+    </select>
+
+    <select id="selectOrderByType" parameterType="Order" resultType="com.soft.web.vo.MyOrdersVO">
+        select id,create_time orderTime,pay_status,trade_status,pay_amount price,(product_amount+express_fee) payable from fa_order
+        <where>
+            <if test="userId != null and userId != ''">
+                and user_id=#{userId}
+            </if>
+            <if test="payStatus == 0">
+                and pay_status=#{payStatus}
+            </if>
+            <if test="tradeStatus != null and tradeStatus != ''">
+                and trade_status=#{tradeStatus}
+            </if>
+            order by create_time desc
+        </where>
+    </select>
+
+    <select id="selectOrderByTypeLimit" parameterType="Order" resultType="com.soft.web.vo.MyOrdersVO">
+        select id,create_time orderTime,pay_status,trade_status,pay_amount price,(product_amount+express_fee) payable from fa_order
+        <where>
+            <if test="userId != null and userId != ''">
+                and user_id=#{userId}
+            </if>
+            <if test="payStatus == 0">
+                and pay_status=#{payStatus}
+            </if>
+            <if test="tradeStatus != null and tradeStatus != ''">
+                and trade_status=#{tradeStatus}
+            </if>
+            order by create_time desc limit 3
+        </where>
+    </select>
+
+    <select id="selectOrderDetailByType" resultType="com.soft.web.vo.MyOrderDetailsVO">
+        select id,product_icon pic,product_name,specialofferprice price,product_quantity from fa_order_detail where oid=#{id}
+    </select>
+
+    <select id="selectOrderDetailByTypeLimit" resultType="com.soft.web.vo.MyOrderDetailsVO">
+        select id,product_icon pic,product_name,specialofferprice price,product_quantity from fa_order_detail where oid=#{id} limit 3
+    </select>
+
+
+    <select id="selectLableByType" resultType="com.soft.web.vo.MyProductinfo">
+        select lable from fa_productinfo product right join fa_order_detail detail
+        on product.product_id=detail.product_id
+        where detail.id=#{id}
+    </select>
+
+    <update id="updateOrderAddress">
+        update fa_order set receive_name=#{name},receive_telphone=#{mobile},address=#{address} where id=#{id}
+    </update>
+
+    <select id="selectCommentsById" resultType="Order">
+        select comments,system_comments from fa_order where id=#{id}
+    </select>
+</mapper>

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "productName": "里脊",
+    "price": 100.00,
+    "specprice": 1.00,
+    "pic": "/upload/goodspic/2021/04/06/e7af7d82fd3ac4918b5e83162c7d228b.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "梅花肉",
+    "price": 99.00,
+    "specprice": 1.00,
+    "pic": "/upload/goodspic/2021/04/06/cfeb0c0b6cf723a13c0788ee64713717.jpg"
+  },
+  {
+    "id": 3,
+    "productName": "猪腿肉",
+    "price": 198.00,
+    "specprice": 1.00,
+    "pic": "/upload/goodspic/2021/04/06/84285784474bab417253ef3e14c4308c.jpg"
+  },
+  {
+    "id": 4,
+    "productName": "哈尔滨红肠",
+    "price": 18.00,
+    "specprice": 10.00,
+    "pic": "/upload/goodspic/2021/04/06/c75214b1f46c26894141bff3666f5482.jpg"
+  },
+  {
+    "id": 10,
+    "productName": "香肠",
+    "price": 90.00,
+    "specprice": 12.00,
+    "pic": "/upload/goodspic/2021/04/02/6a3d089addd5fda13f8e51d227d53a77.png"
+  },
+  {
+    "id": 11,
+    "productName": "五花肉",
+    "price": 90.00,
+    "specprice": 11.00,
+    "pic": "/upload/goodspic/2021/04/06/03ae41ed828247d31f3b2e0a5c6b1be7.jpg"
+  },
+  {
+    "id": 13,
+    "productName": "五花肉1",
+    "price": 50.00,
+    "specprice": 25.00,
+    "pic": "/upload/goodspic/2021/04/01/4af86e1ec48cbda76efea9c550f27857.png"
+  },
+  {
+    "id": 14,
+    "productName": "猪排",
+    "price": 80.00,
+    "specprice": 50.00,
+    "pic": "/upload/goodspic/2021/04/02/cfbd82efbe371d7c0b9d3c490053b883.png"
+  }
+]

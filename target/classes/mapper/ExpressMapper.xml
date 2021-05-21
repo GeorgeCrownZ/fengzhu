@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft.web.dao.ExpressMapper">
+
+    <select id="selectConfirmById" resultType="com.soft.web.vo.ExpressGoodsVO">
+        select product.product_id id,product.product_name,(select pic_path from fa_product_pic pic where pic.product_id=product.product_id order by sort_number limit 1) pic,
+        lable,detail.specialofferprice price,product_quantity,(detail.specialofferprice*product_quantity) sums,(detail.product_price-detail.specialofferprice) discount,detail.measurement
+        from fa_productinfo product
+            left JOIN fa_order_detail detail
+        on product.product_id=detail.product_id
+            left join fa_order orders
+            on detail.oid=orders.id
+        where orders.id=#{id}
+    </select>
+
+    <select id="selectConfirmByIdLimit" resultType="com.soft.web.vo.ExpressGoodsVO">
+        select product.product_id id,product.product_name,(select pic_path from fa_product_pic pic where pic.product_id=product.product_id order by sort_number limit 1) pic,
+        lable,detail.specialofferprice price,product_quantity,(detail.specialofferprice*product_quantity) sums,(detail.product_price-detail.specialofferprice) discount,detail.measurement
+        from fa_productinfo product
+            left JOIN fa_order_detail detail
+        on product.product_id=detail.product_id
+            left join fa_order orders
+            on detail.oid=orders.id
+        where orders.id=#{id} limit 3
+    </select>
+    
+    <select id="selectReceiveByOid" resultType="com.soft.web.vo.ReceiveVO">
+        select receive_name name,receive_telphone phone,address,total_weight,trade_status,pay_status,express_fee,order_id,express_fee,pay_way from fa_order where id=#{id}
+    </select>
+</mapper>

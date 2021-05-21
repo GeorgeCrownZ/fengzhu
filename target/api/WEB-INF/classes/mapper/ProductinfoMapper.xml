@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft.web.dao.ProductinfoMapper">
+
+    <select id="selectSpecialoffer" resultType="com.soft.web.vo.TodayVO">
+        select fa.product_id id,product_name productName,price,specialofferprice specprice,
+        (select pic_path from fa_product_pic pic
+        where pic.product_id=fa.product_id order by sort_number limit 1) pic
+        from fa_productinfo fa
+        where specialoffer=1
+    </select>
+
+    <select id="selectGoodsByCategoryId" resultType="com.soft.web.vo.GoodsVO">
+        select fa.product_id id, product_name productName, lable label, price,
+        (select pic_path from fa_product_pic pic
+        where pic.product_id=fa.product_id order by sort_number limit 1) pic
+        from fa_productinfo fa
+        where product_category_id=#{productCategoryId}
+    </select>
+
+    <select id="selectGoodsById" resultType="com.soft.web.vo.GoodsVO">
+        select fa.product_id id, product_name productName, lable label, price,measurement,specialofferprice,specialoffer,
+        (select pic_path from fa_product_pic pic
+        where pic.product_id=fa.product_id order by sort_number limit 1) pic
+        from fa_productinfo fa
+        where product_id=#{productId}
+    </select>
+
+    <select id="selectGoods" resultType="com.soft.web.vo.GoodsVO">
+        select fa.product_id id, product_name productName, lable label, price,salenum2,
+        (select pic_path from fa_product_pic pic
+        where pic.product_id=fa.product_id order by sort_number limit 1) pic
+        from fa_productinfo fa where show_index=1 and updown_status=1 and specialoffer=0 order by salenum2 desc
+    </select>
+
+    <select id="selectGoodsByName" resultType="com.soft.web.vo.GoodsVO">
+        select fa.product_id id, product_name productName, lable label, price,salenum2,specialoffer,specialofferprice,
+        (select pic_path from fa_product_pic pic
+        where pic.product_id=fa.product_id order by sort_number limit 1) pic
+        from fa_productinfo fa where product_name like CONCAT('%',#{productName},'%')
+        and updown_status=1 order by #{page.orderByColumn} #{page.isAsc} limit #{page.pageNum},#{page.pageSize}
+    </select>
+
+    <select id="selectGoodsByCid" resultType="com.soft.web.vo.GoodsVO">
+        select fa.product_id id, product_name productName, lable label, price,salenum2,specialoffer,specialofferprice,
+               (select pic_path from fa_product_pic pic
+        where pic.product_id=fa.product_id order by sort_number limit 1) pic
+        from fa_productinfo fa where product_category_id=#{cid} order by #{page.orderByColumn} #{page.isAsc} limit #{page.pageNum},#{page.pageSize}
+    </select>
+    
+    <select id="selectGoodsByProId" resultType="com.soft.web.vo.GoodsinfoVO">
+        select product_id id,product_name productName,price,specialofferprice,salenum2,specialoffer from fa_productinfo where product_id=#{productId}
+    </select>
+
+    <select id="selectPicByProId" resultType="com.soft.web.vo.GoodsPicVO">
+        select pic_path pic from fa_product_pic where product_id=#{productId}
+    </select>
+    
+    <select id="selectSpecByProId" resultType="com.soft.web.vo.GoodsSpecVO">
+        select spec_name from fa_product_spec a
+        left join fa_spec b
+        on a.spec_id=b.id where a.product_id=#{productId} limit 5
+    </select>
+
+    <select id="selectParamByProId" resultType="com.soft.web.vo.GoodsParam">
+        select param_name,param_value from fa_product_param where product_id=#{productId}
+    </select>
+    
+    <select id="selectDetailByProId" resultType="com.soft.web.vo.DetailVO">
+        select detail_path from fa_product_detail where product_id=#{productId}
+    </select>
+
+    <select id="selectProductById" resultType="Productinfo">
+        select price,specialoffer,specialofferprice,measurement from fa_productinfo where product_id=#{productId}
+    </select>
+
+</mapper>

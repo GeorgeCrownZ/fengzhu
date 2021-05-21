@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft.web.dao.UserMapper">
+
+    <insert id="addCode" parameterType="UserCode">
+        insert into fa_user_code (mobile_number,code,update_time) values(#{mobileNumber},#{code},#{updateTime})
+    </insert>
+
+    <select id="selectCodeByNum" resultType="UserCode">
+        select * from fa_user_code where mobile_number=#{mobileNumber}
+    </select>
+
+    <update id="updateCode" parameterType="UserCode">
+        update fa_user_code set code=#{code},update_time=#{updateTime} where mobile_number=#{mobileNumber}
+    </update>
+
+    <select id="selectCode" resultType="UserCode">
+        select * from fa_user_code where mobile_number=#{mobileNumber} and code=#{code}
+    </select>
+
+    <select id="selectUserByNum" resultType="User">
+        select * from fa_user where mobile_number=#{mobileNumber}
+    </select>
+
+    <select id="selectUserByPwd" resultType="User">
+        select id,user_state from fa_user where mobile_number=#{mobileNumber} and password=#{password}
+    </select>
+
+    <update id="updateUserByNum" parameterType="User">
+        update fa_user set password=#{password} where  mobile_number=#{mobileNumber}
+    </update>
+
+    <select id="selectUserByPid" resultType="User">
+        select id from fa_user where id=#{pid}
+    </select>
+
+    <select id="selectUserById" resultType="User">
+        select id from fa_user where id=#{userId}
+    </select>
+    
+    <select id="selectByUserId" resultType="User">
+        select user_account,user_nick,true_name,mobile_number from fa_user where id=#{userId}
+    </select>
+
+    <insert id="addUserByWechat" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        insert into fa_user (user_nick,sex,user_state,open_id,head_pic,add_time,union_id)
+        values (#{userNick},#{sex},#{userState},#{openId},#{headPic},#{addTime},#{unionId})
+    </insert>
+
+    <select id="selectUserByOpenId" resultType="User">
+        select mobile_number,open_id,id from fa_user where open_id=#{openId}
+    </select>
+    
+    <select id="selectAboutByUserid" resultType="com.soft.web.vo.AboutMeVO">
+        select head_pic headpic,user_nick nickname,true_name truename,mobile_number phone,pid from fa_user where id=#{userId}
+    </select>
+
+    <select id="selectUserStatus" resultType="User">
+        select id,user_state from fa_user where id=#{id}
+    </select>
+</mapper>

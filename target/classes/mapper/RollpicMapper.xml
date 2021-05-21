@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft.web.dao.RollpicMapper">
+
+    <select id="selectRollPics" resultType="com.soft.web.vo.RollPicVO">
+        select id,pic_path as pic from fa_rollpic where status=1 order by sort_number asc
+    </select>
+
+</mapper>

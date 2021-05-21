@@ -1,0 +1,47 @@
+{
+  "total": 3,
+  "rows": [
+    {
+      "id": 1,
+      "pic": "/upload/goodspic/2021/04/06/e7af7d82fd3ac4918b5e83162c7d228b.jpg",
+      "productName": "里脊",
+      "label": "富硒猪肉",
+      "price": 100.00,
+      "salenum2": 5,
+      "measurement": null,
+      "productQuantity": null,
+      "sums": null
+    },
+    {
+      "id": 2,
+      "pic": "/upload/goodspic/2021/04/06/cfeb0c0b6cf723a13c0788ee64713717.jpg",
+      "productName": "梅花肉",
+      "label": "富硒猪肉",
+      "price": 99.00,
+      "salenum2": 1000,
+      "measurement": null,
+      "productQuantity": null,
+      "sums": null
+    },
+    {
+      "id": 3,
+      "pic": "/upload/goodspic/2021/04/06/84285784474bab417253ef3e14c4308c.jpg",
+      "productName": "猪腿肉",
+      "label": "富硒猪肉",
+      "price": 198.00,
+      "salenum2": 500,
+      "measurement": null,
+      "productQuantity": null,
+      "sums": null
+    }
+  ],
+  "code": 0,
+  "msg": null,
+  "price": null,
+  "freight": null,
+  "systemComments": null,
+  "receiveName": null,
+  "receiveTelphone": null,
+  "address": null,
+  "expressFee": null
+}

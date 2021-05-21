@@ -1,0 +1,286 @@
+POST http://localhost:80/order/saveaddr?uid=234&name=test&mobile=13341499179&address=test&isDefault=1&id=329
+
+<> 2021-04-19T164745.200.json
+
+###
+
+POST http://localhost:80/order/saveaddr?uid=234&name=test&mobile=13341499179&address=test&isDefault=0&id=329
+
+<> 2021-04-19T164720.200.json
+
+###
+
+POST http://localhost:80/order/saveaddr?uid=234&name=test&mobile=13341499179&address=test&isDefault=0
+
+<> 2021-04-19T164605.200.json
+
+###
+
+POST http://localhost:80/order/saveaddr?uid=234&name=test&mobile=13341499179&address=test&isDefault=0
+
+<> 2021-04-19T164341.200.json
+
+###
+
+POST http://localhost:80/order/saveaddr?uid=234&name=test&mobile=13341499179&address=test&isDefault=0
+
+<> 2021-04-19T164148.200.json
+
+###
+
+POST http://localhost:80/order/saveaddr?uid=234&name=test&mobile=13341499179&address=test&isDefault=0
+
+<> 2021-04-19T164102.200.json
+
+###
+
+GET https://cs.fzsir.com/main/getglobal
+
+<> 2021-04-19T144805.404.html
+
+###
+
+GET https://cs.fzsir.com/main/getglobal
+
+<> 2021-04-19T144802.404.html
+
+###
+
+GET https://cs.fzsir.com/main/getglobal
+
+<> 2021-04-19T144558.404.html
+
+###
+
+GET http://localhost:80/main/getglobal
+
+<> 2021-04-19T144520.200.json
+
+###
+
+POST http://localhost:80/order/editaddr?uid=167&id=224&aid=168&name=ccc&mobile=ccc&address=ccc&isdefault=1
+
+<> 2021-04-19T110211.200.json
+
+###
+
+POST http://localhost:80/order/editaddr?uid=167&id=224&aid=168&name=ccc&mobile=ccc&address=ccc&isdefault=1
+
+<> 2021-04-19T110152.404.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=1&pageSize=2&isAsc=asc
+
+<> 2021-04-19T090823.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=1&pageSize=2&isAsc=asc
+
+<> 2021-04-19T090804.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=2&pageSize=2&isAsc=asc
+
+<> 2021-04-19T090751.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=1&pageSize=2&isAsc=asc
+
+<> 2021-04-19T090745.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=0&pageSize=2&isAsc=asc
+
+<> 2021-04-19T090719.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=0&pageSize=2&isAsc=asc
+
+<> 2021-04-19T090413.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=1&pageSize=2&isAsc=asc
+
+<> 2021-04-19T090407.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=id&pageNum=1&pageSize=5&isAsc=asc
+
+<> 2021-04-19T090403.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=1&pageSize=5&isAsc=asc
+
+<> 2021-04-19T090352.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=1&pageSize=5&isAsc=asc
+
+<> 2021-04-19T090151.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=1&pageSize=5&isAsc=asc
+
+<> 2021-04-19T090109.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=0&pageSize=5&isAsc=asc
+
+<> 2021-04-19T090058.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=0&pageSize=5&isAsc=asc
+
+<> 2021-04-19T085148.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=1&pageSize=5&isAsc=asc
+
+<> 2021-04-19T084838.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=0&pageSize=5&isAsc=asc
+
+<> 2021-04-19T084702.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=0&pageSize=5&isAsc=asc
+
+<> 2021-04-19T084545.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=0&pageSize=5&isAsc=asc
+
+<> 2021-04-19T084434.500.json
+
+###
+
+GET http://localhost:80/category/goods?cid=1&orderByColumn=id&pageNum=0&pageSize=5&isAsc=asc
+
+###
+
+GET http://localhost:80/category/goods?cid=10&pageNum=0&pageSize=10&orderByColumn=salenum2&isAsc=desc
+
+<> 2021-04-17T163528.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&pageNum=0&pageSize=10&orderByColumn=salenum2&isAsc=desc
+
+<> 2021-04-17T163409.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&pageNum=0&pageSize=10&orderByColumn=salenum2&isAsc=false
+
+<> 2021-04-17T163357.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&pageNum=0&pageSize=10&orderByColumn=salenum2&isAsc=desc
+
+<> 2021-04-17T163316.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&pageNum=0&pageSize=10&orderByColumn=salenum2&isAsc=desc
+
+<> 2021-04-17T163127.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&pageNum=0&pageSize=10&orderByColumn=salenum2&isAsc=desc
+
+<> 2021-04-17T163046.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&pageNum=0&pageSize=10&orderByColumn=salenum2
+
+<> 2021-04-17T163010.200.json
+
+###
+
+GET http://localhost:80/category/goods?cid=10&orderByColumn=salenum2
+
+<> 2021-04-17T162932.500.json
+
+###
+
+POST http://localhost:80/self/received?uid=226&id=250
+
+<> 2021-04-17T162610.200.json
+
+###
+
+POST http://localhost:80/self/received?uid=226&id=250
+
+<> 2021-04-17T162543.200.json
+
+###
+
+POST http://localhost:80/self/received?uid=226&id=250
+
+<> 2021-04-17T162521.404.json
+
+###
+
+POST http://localhost:80/self/received
+
+<> 2021-04-17T162358.404.json
+
+###
+
+GET http://localhost:80/main/today
+
+<> 2021-04-15T130814.200.json
+
+###
+
+POST http://localhost:80/cart/list?uid=200
+
+<> 2021-04-15T130745.500.json
+
+###
+
+POST http://localhost:80/cart/list?uid=124
+
+<> 2021-04-15T130701.500.json
+
+###
+
+POST http://localhost:80/cart/cartok?uid=124
+
+<> 2021-04-15T130636.200.json
+
+###
+
+POST http://localhost:80/cart/cartok
+
+<> 2021-04-15T130626.200.json
+
+###
+
+GET http://localhost:80/goods/goodsinfo
+
+<> 2021-04-15T092906.500.json
+
+###
+

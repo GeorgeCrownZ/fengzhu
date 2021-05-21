@@ -1,0 +1,25 @@
+{
+  "total": 1,
+  "rows": [
+    {
+      "id": 3,
+      "pic": "/upload/goodspic/2021/04/06/84285784474bab417253ef3e14c4308c.jpg",
+      "productName": "猪腿肉",
+      "label": "富硒猪肉",
+      "price": 198.00,
+      "salenum2": 500,
+      "measurement": null,
+      "productQuantity": null,
+      "sums": null
+    }
+  ],
+  "code": 0,
+  "msg": null,
+  "price": null,
+  "freight": null,
+  "systemComments": null,
+  "receiveName": null,
+  "receiveTelphone": null,
+  "address": null,
+  "expressFee": null
+}

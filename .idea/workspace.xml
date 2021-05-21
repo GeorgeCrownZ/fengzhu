@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="124a7655-4bd2-416b-8e9c-53c58be4b08c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fengzhu_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fengzhu_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/web/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft/web/FengzhuApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft/web/FengzhuApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1qQCQjZdNYO8DTksDkrtMAguyyE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="305" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="305" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="307" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="306" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="307" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="306" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="305" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="305" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="307" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="306" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="307" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="306" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SVN/code" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\fengzhu\src\main\java\com\soft\web" />
+      <recent name="F:\project\fengzhu\src\main\java\com\soft\web\request" />
+      <recent name="F:\project\fengzhu\src\main\java\com\soft\web\config" />
+      <recent name="F:\project\fengzhu\src\main\resources\templates" />
+      <recent name="F:\project\fengzhu\src\main\java\com\soft\web\exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\fengzhu\src\main\java\com\soft\web\utils" />
+      <recent name="F:\project\fengzhu\src\main\resources\mapper" />
+      <recent name="F:\project\fengzhu\src\main\resources\config" />
+      <recent name="F:\project\fengzhu_code\src\main\resources\templates" />
+      <recent name="F:\project\fengzhu_code\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soft.web.expressapi.utils" />
+      <recent name="com.soft.web.expressapi.response" />
+      <recent name="com.soft.web.constant" />
+      <recent name="com.soft.web.utils" />
+      <recent name="com.soft.web.response" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+      <command value="mvn clean" />
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FengzhuApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft.web.utils.CodeGenerator" />
+      <module name="fengzhu_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft.web.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FengzhuApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft.web.FengzhuApplicationTests" />
+      <module name="fengzhu_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QRCodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft.web.utils.QRCodeUtil" />
+      <module name="fengzhu_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft.web.expressapi.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="FengzhuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fengzhu_code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft.web.FengzhuApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="Application.FengzhuApplicationTests" />
+        <item itemvalue="Application.QRCodeUtil" />
+        <item itemvalue="HTTP Request.generated-requests#6" />
+        <item itemvalue="HTTP Request.generated-requests#4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\fzkj\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\project\fengzhu" />
+          <option name="myCopyRoot" value="F:\project\fengzhu" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\project\fengzhu" />
+          <option name="myCopyRoot" value="F:\project\fengzhu" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="124a7655-4bd2-416b-8e9c-53c58be4b08c" name="Default Changelist" comment="" />
+      <created>1617002412289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617002412289</updated>
+      <workItem from="1617002416879" duration="177000" />
+      <workItem from="1617002682357" duration="3805000" />
+      <workItem from="1617006547400" duration="2115000" />
+      <workItem from="1617065368324" duration="2045000" />
+      <workItem from="1617067466259" duration="393000" />
+      <workItem from="1617067903796" duration="139000" />
+      <workItem from="1617068461149" duration="13031000" />
+      <workItem from="1617084361881" duration="8125000" />
+      <workItem from="1617152031225" duration="26797000" />
+      <workItem from="1617238255113" duration="10824000" />
+      <workItem from="1617249887429" duration="16029000" />
+      <workItem from="1617324807342" duration="27901000" />
+      <workItem from="1617670911491" duration="18087000" />
+      <workItem from="1617693841440" duration="8455000" />
+      <workItem from="1617756843803" duration="12378000" />
+      <workItem from="1617786044265" duration="307000" />
+      <workItem from="1617843395603" duration="1683000" />
+      <workItem from="1617848332104" duration="7472000" />
+      <workItem from="1617860961696" duration="6024000" />
+      <workItem from="1617928344439" duration="2400000" />
+      <workItem from="1617944807046" duration="347000" />
+      <workItem from="1617945518348" duration="12990000" />
+      <workItem from="1618014992136" duration="24452000" />
+      <workItem from="1618187351817" duration="25300000" />
+      <workItem from="1618273676754" duration="20382000" />
+      <workItem from="1618360057132" duration="21172000" />
+      <workItem from="1618446423363" duration="336000" />
+      <workItem from="1618447598286" duration="735000" />
+      <workItem from="1618448354928" duration="194000" />
+      <workItem from="1618448566437" duration="242000" />
+      <workItem from="1618448824560" duration="92000" />
+      <workItem from="1618448931548" duration="395000" />
+      <workItem from="1618449343899" duration="50000" />
+      <workItem from="1618449408983" duration="469000" />
+      <workItem from="1618449898601" duration="5084000" />
+      <workItem from="1618455018192" duration="1402000" />
+      <workItem from="1618456441355" duration="137000" />
+      <workItem from="1618456603080" duration="113000" />
+      <workItem from="1618456736940" duration="30000" />
+      <workItem from="1618456789190" duration="64000" />
+      <workItem from="1618456876830" duration="50000" />
+      <workItem from="1618456946185" duration="45000" />
+      <workItem from="1618457012349" duration="11768000" />
+      <workItem from="1618532939327" duration="28266000" />
+      <workItem from="1618618938729" duration="1297000" />
+      <workItem from="1618620690170" duration="216000" />
+      <workItem from="1618620948046" duration="27770000" />
+      <workItem from="1618792159167" duration="31743000" />
+      <workItem from="1618878215036" duration="633000" />
+      <workItem from="1618878916806" duration="14739000" />
+      <workItem from="1618894329982" duration="174000" />
+      <workItem from="1618894572566" duration="660000" />
+      <workItem from="1618895258251" duration="366000" />
+      <workItem from="1618895646602" duration="14677000" />
+      <workItem from="1618964930739" duration="2913000" />
+      <workItem from="1618967957568" duration="168000" />
+      <workItem from="1618968146297" duration="11186000" />
+      <workItem from="1618979531445" duration="1453000" />
+      <workItem from="1618981011200" duration="16305000" />
+      <workItem from="1619051489032" duration="24871000" />
+      <workItem from="1619137819742" duration="88000" />
+      <workItem from="1619137938093" duration="5571000" />
+      <workItem from="1619144584977" duration="11000" />
+      <workItem from="1619145383465" duration="10839000" />
+    </task>
+    <task id="LOCAL-00064" summary="添加：添加读取微信设置global">
+      <created>1618636581016</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1618636581016</updated>
+    </task>
+    <task id="LOCAL-00065" summary="添加：用户注册增加默认头像">
+      <created>1618638855814</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1618638855814</updated>
+    </task>
+    <task id="LOCAL-00066">
+      <created>1618642293196</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1618642293196</updated>
+    </task>
+    <task id="LOCAL-00067">
+      <created>1618642485703</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1618642485703</updated>
+    </task>
+    <task id="LOCAL-00068" summary="添加：减少购物车&#10;修改：我的订单">
+      <created>1618646931545</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1618646931545</updated>
+    </task>
+    <task id="LOCAL-00069" summary="修改：首页商品销量排序">
+      <created>1618647186823</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1618647186823</updated>
+    </task>
+    <task id="LOCAL-00070" summary="修改：首页商品销量排序">
+      <created>1618647260205</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1618647260205</updated>
+    </task>
+    <task id="LOCAL-00071" summary="添加：确认收货">
+      <created>1618647715335</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1618647715335</updated>
+    </task>
+    <task id="LOCAL-00072" summary="添加：确认收货">
+      <created>1618648050848</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1618648050848</updated>
+    </task>
+    <task id="LOCAL-00073">
+      <created>1618651946735</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1618651946736</updated>
+    </task>
+    <task id="LOCAL-00074" summary="修改：查看购物车、商品分类、搜索商品的分页查询">
+      <created>1618794652455</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1618794652456</updated>
+    </task>
+    <task id="LOCAL-00075">
+      <created>1618795435735</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1618795435735</updated>
+    </task>
+    <task id="LOCAL-00076">
+      <created>1618796056791</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1618796056791</updated>
+    </task>
+    <task id="LOCAL-00077" summary="优化接口">
+      <created>1618879702542</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1618879702543</updated>
+    </task>
+    <task id="LOCAL-00078" summary="优化接口">
+      <created>1618879971279</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1618879971279</updated>
+    </task>
+    <task id="LOCAL-00079" summary="优化接口">
+      <created>1618882941854</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1618882941854</updated>
+    </task>
+    <task id="LOCAL-00080" summary="优化接口">
+      <created>1618883734020</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1618883734020</updated>
+    </task>
+    <task id="LOCAL-00081" summary="优化接口">
+      <created>1618885542085</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1618885542085</updated>
+    </task>
+    <task id="LOCAL-00082" summary="优化接口">
+      <created>1618885932113</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1618885932113</updated>
+    </task>
+    <task id="LOCAL-00083" summary="优化接口">
+      <created>1618886504647</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1618886504647</updated>
+    </task>
+    <task id="LOCAL-00084" summary="优化接口">
+      <created>1618893327873</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1618893327873</updated>
+    </task>
+    <task id="LOCAL-00085" summary="优化接口">
+      <created>1618897336828</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1618897336828</updated>
+    </task>
+    <task id="LOCAL-00086" summary="优化接口">
+      <created>1618899181644</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1618899181645</updated>
+    </task>
+    <task id="LOCAL-00087" summary="开发：删除收货地址接口">
+      <created>1618902070564</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1618902070564</updated>
+    </task>
+    <task id="LOCAL-00088" summary="优化接口">
+      <created>1618965227558</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1618965227559</updated>
+    </task>
+    <task id="LOCAL-00089" summary="开发：物流订单详情">
+      <created>1618973106237</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1618973106237</updated>
+    </task>
+    <task id="LOCAL-00090" summary="优化接口">
+      <created>1618973122947</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1618973122947</updated>
+    </task>
+    <task id="LOCAL-00091" summary="优化接口">
+      <created>1618973616155</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1618973616155</updated>
+    </task>
+    <task id="LOCAL-00092" summary="优化接口">
+      <created>1618976574567</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1618976574567</updated>
+    </task>
+    <task id="LOCAL-00093">
+      <created>1618989713980</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1618989713981</updated>
+    </task>
+    <task id="LOCAL-00094" summary="优化接口">
+      <created>1618992327935</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1618992327935</updated>
+    </task>
+    <task id="LOCAL-00095" summary="优化接口">
+      <created>1618992513720</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1618992513720</updated>
+    </task>
+    <task id="LOCAL-00096" summary="优化接口">
+      <created>1618993598306</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1618993598306</updated>
+    </task>
+    <task id="LOCAL-00097" summary="优化接口">
+      <created>1618993645087</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1618993645087</updated>
+    </task>
+    <task id="LOCAL-00098" summary="优化接口">
+      <created>1618993673546</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1618993673546</updated>
+    </task>
+    <task id="LOCAL-00099" summary="优化接口">
+      <created>1618993931161</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1618993931162</updated>
+    </task>
+    <task id="LOCAL-00100" summary="优化接口">
+      <created>1618996995200</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1618996995200</updated>
+    </task>
+    <task id="LOCAL-00101" summary="优化接口">
+      <created>1619055097722</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1619055097723</updated>
+    </task>
+    <task id="LOCAL-00102" summary="优化接口">
+      <created>1619056390269</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1619056390269</updated>
+    </task>
+    <task id="LOCAL-00103" summary="优化接口">
+      <created>1619057225001</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1619057225001</updated>
+    </task>
+    <task id="LOCAL-00104" summary="优化接口">
+      <created>1619058095864</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1619058095865</updated>
+    </task>
+    <task id="LOCAL-00105" summary="优化接口">
+      <created>1619069753886</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1619069753886</updated>
+    </task>
+    <task id="LOCAL-00106" summary="优化接口">
+      <created>1619069913896</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1619069913896</updated>
+    </task>
+    <task id="LOCAL-00107" summary="优化接口">
+      <created>1619071360196</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1619071360196</updated>
+    </task>
+    <task id="LOCAL-00108" summary="优化接口">
+      <created>1619072636133</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1619072636133</updated>
+    </task>
+    <task id="LOCAL-00109" summary="修改：我的订单、订单详情">
+      <created>1619141761713</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1619141761714</updated>
+    </task>
+    <task id="LOCAL-00110" summary="优化接口">
+      <created>1619143532540</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1619143532540</updated>
+    </task>
+    <task id="LOCAL-00111" summary="优化接口">
+      <created>1619146986687</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1619146986687</updated>
+    </task>
+    <task id="LOCAL-00112" summary="优化接口">
+      <created>1619152677409</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1619152677409</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改：修改查询跨域问题" />
+    <MESSAGE value="修改：查询商品增加分页" />
+    <MESSAGE value="修改：确认订单添加返回参数" />
+    <MESSAGE value="修改：微信注册登录功能，修改收获地址增加参数" />
+    <MESSAGE value="开发：微信注册时增加生成二维码功能&#10;修改：增加实体类内的swagger注释" />
+    <MESSAGE value="修改：增加VO对象swagger注解" />
+    <MESSAGE value="修改：修改收货地址功能" />
+    <MESSAGE value="开发：增加 我的   接口开发" />
+    <MESSAGE value="开发：我的订单功能" />
+    <MESSAGE value="修复：微信支付接口及添加更新用户更新openid逻辑" />
+    <MESSAGE value="修改：密码长度验证6-16位（原8-16位）" />
+    <MESSAGE value="修改：读取设置修复" />
+    <MESSAGE value="修改：我的订单状态修改" />
+    <MESSAGE value="添加：添加读取微信设置global" />
+    <MESSAGE value="添加：用户注册增加默认头像" />
+    <MESSAGE value="添加注册设置默认头像功能" />
+    <MESSAGE value="添加：减少购物车&#10;修改：我的订单" />
+    <MESSAGE value="修改：首页商品销量排序" />
+    <MESSAGE value="添加：确认收货" />
+    <MESSAGE value="修改：查看购物车、商品分类、搜索商品的分页查询" />
+    <MESSAGE value="youhua" />
+    <MESSAGE value="开发：删除收货地址接口" />
+    <MESSAGE value="开发：物流订单详情" />
+    <MESSAGE value="修改：我的订单、订单详情" />
+    <MESSAGE value="优化接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化接口" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
